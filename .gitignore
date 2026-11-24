@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local secrets: keep your Apify token out of git
+.env
+.env.*
+*.secret.env
+
+# Example output
+output/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# npm lockfile (examples pin only apify-client)
+package-lock.json

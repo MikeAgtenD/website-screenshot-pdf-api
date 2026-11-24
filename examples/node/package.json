@@ -1,0 +1,17 @@
+{
+  "name": "website-screenshot-pdf-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Example: website screenshots and URL to PDF with the Apify Actor polderbyte/website-screenshot-pdf",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node take-screenshot.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "apify-client": "^2.26.0"
+  }
+}
